@@ -24,3 +24,36 @@ h2 {
   color: #333;
   margin-top: 40px;
 }
+
+/* Media Queries */
+/* Tablets: */
+@media (max-width: 768px) {
+  button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Phones: */
+@media (max-width: 480px) {
+  button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}

@@ -29,3 +29,28 @@ button {
 button:hover {
   background-color: #3d008d;
 }
+
+/* Media Queries */
+/* Tablets: */
+@media (max-width: 768px) {
+  li {
+    font-size: 1.1rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+}
+
+/* Phones: */
+@media (max-width: 480px) {
+  li {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+}

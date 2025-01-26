@@ -16,3 +16,26 @@ h1 {
   color: #6f00ff;
   margin-bottom: 20px;
 }
+
+/* Media Queries */
+/* Tablets */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  div {
+    padding: 15px;
+  }
+}
+
+/* Phones: */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  div {
+    padding: 10px;
+  }
+}
